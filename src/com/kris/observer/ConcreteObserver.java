@@ -7,6 +7,7 @@ public class ConcreteObserver implements Observer {
 
 	/**
 	 * 观察者的状态
+	 * 拉模型
 	 */
 	private String observerState;
 	@Override
