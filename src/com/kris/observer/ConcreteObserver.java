@@ -12,6 +12,6 @@ public class ConcreteObserver implements Observer {
 	@Override
 	public void update(Subject subject) {
 		observerState=((ConcreteSubject)subject).getSubjectState();
-		System.out.println("目标"+subject.hashCode()+":"+observerState);
+		System.out.println("观察者："+this.hashCode()+"收到目标（"+subject.hashCode()+")的状态为："+observerState);
 	}
 }
